@@ -22,8 +22,7 @@ The goal of this project is to provide a data-driven strategy for the new credit
 
 ## Dataset
 
-The dataset consists of customer demographics, credit behaviors, and engagement metrics with the current credit card. **(If the dataset is publicly available, add the link here)**.
-
+The dataset consists of customer demographics, credit behaviors, and engagement metrics with the current credit card.
 ## Project Structure
 
 - **`Bank_Credit_Card_Launch_EDA.ipynb`** - Notebook with EDA to explore customer segments.
