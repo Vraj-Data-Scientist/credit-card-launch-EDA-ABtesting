@@ -12,7 +12,6 @@ This project involves analyzing bank customer data to identify the optimal group
 - [How to Use](#how-to-use)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
