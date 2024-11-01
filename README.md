@@ -22,7 +22,7 @@ This project aims to support a data-driven launch strategy for a new credit card
 
 ## Dataset
 
-The data used in this project comes from internal banking sources, containing customer demographics, behavioral indicators, and engagement metrics with existing credit card products. **(If the dataset is public, consider adding the link here)**.
+The data used in this project comes from internal banking sources, containing customer demographics, behavioral indicators, and engagement metrics with existing credit card products.
 
 ## Project Structure
 
