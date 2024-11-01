@@ -46,13 +46,6 @@ To determine if the new credit card performs better than the old one, we conduct
 - **Null Hypothesis (H₀):** No significant difference in performance metrics (e.g., spending, engagement) between the old and new cards.
 - **Alternative Hypothesis (H₁):** The new card shows significant improvement over the old card.
 
-### Metrics
-Metrics analyzed include:
-- **Customer Engagement Rate**
-- **Average Monthly Spend**
-- **Retention Rate**
-- **Activation Rate**
-
 ### Methodology
 A/B testing was used to directly compare the outcomes between control and test groups, focusing on the significance of differences in selected metrics.
 
