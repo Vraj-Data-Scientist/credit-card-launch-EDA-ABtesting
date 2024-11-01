@@ -23,6 +23,7 @@ The goal of this project is to provide a data-driven strategy for the new credit
 ## Dataset
 
 The dataset consists of customer demographics, credit behaviors, and engagement metrics with the current credit card.
+
 ## Project Structure
 
 - **`Bank_Credit_Card_Launch_EDA.ipynb`** - Notebook with EDA to explore customer segments.
@@ -58,3 +59,18 @@ Results indicate that the **new credit card improves [specific metric, e.g., cus
 1. Clone the repository:
    ```bash
    git clone https://github.com/Vraj-Data-Scientist/credit-card-launch-EDA-ABtesting.git
+   ```
+
+## Technologies Used
+
+- **Python**: Data processing and analysis
+- **Pandas, NumPy**: Data manipulation
+- **Matplotlib, Seaborn**: Data visualization
+- **A/B Testing**: For performance comparison between groups
+
+## Contributing
+
+Contributions are welcome! Feel free to fork this repository, make changes, and submit a pull request.
+
+
+
