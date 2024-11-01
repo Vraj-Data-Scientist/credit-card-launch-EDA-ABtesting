@@ -1,6 +1,6 @@
-# Credit Card Launch: EDA and A/B Testing
+# Bank Credit Card Launch: EDA and A/B Testing
 
-Welcome to the **Credit Card Launch: EDA and A/B Testing** project. In this project, we analyze bank customer data to identify optimal customer segments for launching a new credit card. We then conduct A/B testing to evaluate if the new card performs better than the existing one.
+This project involves analyzing bank customer data to identify the optimal group for launching a new credit card. The analysis includes performing Exploratory Data Analysis (EDA) to uncover target customer segments, followed by A/B testing to evaluate the new credit card’s performance compared to an existing one.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -16,57 +16,50 @@ Welcome to the **Credit Card Launch: EDA and A/B Testing** project. In this proj
 
 ## Project Overview
 
-This project aims to support a data-driven launch strategy for a new credit card by:
-1. Performing **Exploratory Data Analysis (EDA)** on bank customer data to identify promising customer groups for the new product.
-2. Conducting **A/B testing** to determine if the new card yields higher engagement and better performance compared to the current credit card offering.
+The goal of this project is to provide a data-driven strategy for the new credit card launch by:
+1. Conducting **Exploratory Data Analysis (EDA)** to understand customer characteristics and segment them effectively.
+2. Using **A/B testing** to measure the new card’s impact on selected metrics in comparison to the existing card.
 
 ## Dataset
 
-The data used in this project comes from internal banking sources, containing customer demographics, behavioral indicators, and engagement metrics with existing credit card products.
+The dataset consists of customer demographics, credit behaviors, and engagement metrics with the current credit card. **(If the dataset is publicly available, add the link here)**.
 
 ## Project Structure
 
-This repository contains the following main files and folders:
-
-- **`data/`** - Contains all dataset files.
-- **`notebooks/`** - Jupyter notebooks for EDA and A/B testing analyses.
-- **`src/`** - Python scripts for data processing, analysis, and visualization.
-- **`results/`** - Summary files of results and findings.
+- **`Bank_Credit_Card_Launch_EDA.ipynb`** - Notebook with EDA to explore customer segments.
+- **`bank_credit_card_ABtesting.ipynb`** - Notebook for A/B testing to compare new and old card performance.
+- **`analysis.png`** - Visual summary of key analysis results.
 - **`README.md`** - Project overview and guide.
 
 ## Exploratory Data Analysis (EDA)
 
-The EDA process includes:
-
-- **Data Cleaning and Preparation:** Removing duplicates, handling missing values, and feature engineering.
-- **Descriptive Statistics:** Understanding data distribution, central tendency, and dispersion metrics for key variables.
-- **Visual Analysis:** Graphs and plots to explore customer demographics and behaviors, with a focus on identifying patterns and trends.
-- **Segmentation Analysis:** Identifying potential customer segments based on demographic and behavioral characteristics, helping to target the right group for the new credit card.
+In the EDA, we:
+- **Cleaned and processed** the data by removing duplicates, handling missing values, and engineering relevant features.
+- Conducted **descriptive statistics** to summarize key data characteristics.
+- Created **visualizations** to identify potential customer segments based on spending habits, demographics, and engagement with the existing credit card.
 
 ## A/B Testing
 
 ### Objective
-
-To evaluate if the new credit card leads to improved outcomes compared to the old credit card, we perform A/B testing by dividing customers into control (old card) and test (new card) groups.
+To determine if the new credit card performs better than the old one, we conducted A/B testing, comparing metrics between a control group (old card users) and a test group (new card users).
 
 ### Hypothesis
+- **Null Hypothesis (H₀):** No significant difference in performance metrics (e.g., spending, engagement) between the old and new cards.
+- **Alternative Hypothesis (H₁):** The new card shows significant improvement over the old card.
 
-- **Null Hypothesis (H₀):** There is no significant difference in performance metrics (e.g., engagement rate) between the new and old credit cards.
-- **Alternative Hypothesis (H₁):** The new credit card performs significantly better than the old credit card.
+### Metrics
+Metrics analyzed include:
+- **Customer Engagement Rate**
+- **Average Monthly Spend**
+- **Retention Rate**
+- **Activation Rate**
 
-### Metrics Analyzed
-
-The primary and secondary metrics assessed include **customer engagement, average spending, retention rates**, and **activation rates**.
-
-### Testing Method
-
-We used statistical tests (e.g., t-tests, chi-squared tests) to analyze differences between the control and test groups. The level of significance is set at **0.05**.
+### Methodology
+A/B testing was used to directly compare the outcomes between control and test groups, focusing on the significance of differences in selected metrics.
 
 ## Results
 
-The analysis indicates that **[summary of findings – for example: "the new credit card significantly increases customer engagement in the targeted demographic group, outperforming the existing card."]**
-
-> Detailed results and visualizations can be found in the `results/` folder and in the A/B testing notebook.
+Results indicate that the **new credit card improves [specific metric, e.g., customer engagement]** within the targeted demographic group, suggesting a favorable response. Detailed results and visualizations can be found in `analysis.png` and the A/B testing notebook.
 
 ## How to Use
 
