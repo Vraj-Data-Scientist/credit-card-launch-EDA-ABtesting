@@ -4,7 +4,6 @@ This project involves analyzing bank customer data to identify the optimal group
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Dataset](#dataset)
 - [Project Structure](#project-structure)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [A/B Testing](#a-b-testing)
@@ -18,10 +17,6 @@ This project involves analyzing bank customer data to identify the optimal group
 The goal of this project is to provide a data-driven strategy for the new credit card launch by:
 1. Conducting **Exploratory Data Analysis (EDA)** to understand customer characteristics and segment them effectively.
 2. Using **A/B testing** to measure the new card’s impact on selected metrics in comparison to the existing card.
-
-## Dataset
-
-The dataset consists of customer demographics, credit behaviors, and engagement metrics with the current credit card.
 
 ## Project Structure
 
